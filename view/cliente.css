@@ -1,0 +1,60 @@
+.container{
+    position: absolute;
+    display: flex;
+    margin: 0%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+  /* Style the search box inside the navigation bar */
+  /* The navbar */
+  .topnav {
+    top: 10%;
+    width: 100%;
+    height: 5.4%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 1%;
+    height: 2%;
+    border: none;
+    margin-top: 0.3%;
+    margin-right: 8%;
+    font-size: 100%
+  }
+
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    top: 0%;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.5% 3%;
+    text-decoration: none;
+    font-size: 100%;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+.title{
+    position: absolute;
+    background-image: url('./assets/main.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+    left: 37.5%;
+    top: 0%;
+    height: 20.9%;
+    width: 25%;
+}
+
